@@ -12,6 +12,10 @@ public class FractionUse {
 		Fraction f2 = new Fraction(4, 8);
 		f1.add(f2);
 		f1.print();
+		
+		Fraction f3 = new Fraction(3, 4);
+		f1.multiply(f3);
+		f1.print();
 	}
 
 }

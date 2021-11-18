@@ -38,6 +38,12 @@ public class Fraction {
 		simplify();
 	}
 	
+	public void multiply(Fraction f2) {
+		this.numerator = this.numerator * f2.numerator;
+		this.denominator = this.denominator * f2.denominator;
+		simplify();
+	}
+	
 	private void simplify() {
 		int gcd = 1;
 		int smaller = Math.min(numerator, denominator);
